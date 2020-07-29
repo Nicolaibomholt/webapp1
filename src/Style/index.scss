@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Intro{
+  background-color: rgba(212, 156, 34, 0.867);
+  color: white;
+  height: 125px;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+  border-bottom-left-radius: 30% 20%;
+  border-bottom-right-radius: 30% 20%;
+}
+
+.Friends{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 20px;
+
+  .list-group-item.active{
+    background-color:rgba(212, 156, 34, 0.867);
+    border-color: rgba(212, 156, 34, 0.867);
+    color: #ffff;
+  }
+
+}
+
+.EmotionResult{
+
+  height: 100%;
+  .continue{
+    margin-top: 25px;
+    height: 60px;
+    background-color: rgb(57, 54, 68);
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+    font-size: 25px;
+  } 
+  .continue1{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 60px;
+    background-color: rgb(57, 54, 68);
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+    font-size: 25px;
+  }
+
+}
+
+.detailButton{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.DetailedOppinion{
+  background-color: rgba(212, 156, 34, 0.867); 
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  h2{
+    color: white;
+    margin-top: 30px;
+  }
+  textarea{
+    margin-top: 150px;
+    width: 80%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content{
+    margin-top: 70px;
+  }
+  
+}
+
+.OppinionOverview{
+
+  .btn{
+    width: 80%;
+  }
+  .list-group{
+    margin: auto;
+
+    ul{
+      margin: auto;
+      padding: 0;
+      width: 80%;
+      text-align: left;
+
+      .list-group-item {
+        position: relative;
+        display: block;
+        padding: .75rem 1.25rem;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(89, 60, 194, 0.125);
+      }
+    }
+  }
+
+  .card{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .continue{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 60px;
+    background-color: rgb(57, 54, 68);
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+    font-size: 25px;
+  }
+}

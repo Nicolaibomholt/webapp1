@@ -1,0 +1,48 @@
+.responsive  {   
+    margin:auto;
+    text-align:center;
+    display:inline-block; 
+    border-radius: 8px;
+    z-index: 2;
+    background-color: #ffff;
+}
+
+.thumbnail{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 20px !important;
+
+}
+
+.image_picker{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 15px;
+
+}
+
+
+
+.image_picker .responsive .thumbnail {
+    border-radius: 8px;
+
+}
+
+
+
+.content{
+    button{
+        height: 75px;
+        background-color: rgb(57, 54, 68);
+        border-radius: 10px;
+        margin-bottom: 50px;
+        color: white;
+        width: 70%;
+        font-size: 25px;
+    }
+}
